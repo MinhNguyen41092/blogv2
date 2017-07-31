@@ -1,33 +1,44 @@
 import React, { Component } from 'react';
 import {Navbar, Nav, NavItem} from 'react-bootstrap';
-import {LinkContainer} from 'react-router-bootstrap';
+// Use IndexLinkContainer for the first link to prevent it from being active all the time
+// Reason: https://github.com/reactjs/react-router-tutorial/tree/master/lessons/09-index-links
+import {LinkContainer, IndexLinkContainer} from 'react-router-bootstrap';
+import { SocialIcon } from 'react-social-icons';
 import './Navigation.css'
 
 class Navigation extends Component {
 
   render() {
     return(
-      <Navbar collapseOnSelect>
-        <Navbar.Collapse>
-          <Nav>
-            <LinkContainer to='/'>
-              <NavItem eventKey={2}>Home</NavItem>
-            </LinkContainer>
-            <LinkContainer to='/about'>
-              <NavItem eventKey={2}>About</NavItem>
-            </LinkContainer>
-            <LinkContainer to='/project'>
-              <NavItem eventKey={2}>Project</NavItem>
-            </LinkContainer>
-            <LinkContainer to='/blog'>
-              <NavItem eventKey={2}>Blog</NavItem>
-            </LinkContainer>
-          </Nav>
-          <Nav pullRight>
-            <NavItem eventKey={1} href="#"></NavItem>
-            <NavItem eventKey={2} href="#"></NavItem>
-          </Nav>
-        </Navbar.Collapse>
+      <Navbar>
+        <Nav>
+          <IndexLinkContainer to='/'>
+            <NavItem eventKey={2}>Home</NavItem>
+          </IndexLinkContainer>
+          <LinkContainer to='/about'>
+            <NavItem eventKey={2}>About</NavItem>
+          </LinkContainer>
+          <LinkContainer to='/project'>
+            <NavItem eventKey={2}>Project</NavItem>
+          </LinkContainer>
+          <LinkContainer to='/blog'>
+            <NavItem eventKey={2}>Blog</NavItem>
+          </LinkContainer>
+        </Nav>
+        <Nav pullRight>
+          <li role="presentation" className="social-link">
+            <SocialIcon url="https://www.twitter.com/minhnguyen41092/" style={{ height: 25, width: 25 }}
+              color="white" />
+          </li>
+          <li role="presentation" className="social-link">
+            <SocialIcon url="https://www.facebook.com/GGUTD" style={{ height: 25, width: 25 }}
+              color="white" />
+          </li>
+          <li role="presentation" className="social-link">
+            <SocialIcon url="https://www.instagram.com/minhnguyen41092/" style={{ height: 25, width: 25 }}
+              color="white" />
+          </li>
+        </Nav>
       </Navbar>
     )
   }

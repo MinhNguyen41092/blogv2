@@ -8,17 +8,26 @@
   color: white;
 }
 
+.navbar-default .navbar-nav > li > a:hover {
+  color: #D6D1DA;
+}
+
 .navbar-default .navbar-nav > .active > a {
-  color: white;
+  color: #D6D1DA;
   background-color: transparent;
 }
 
-.navbar-default .navbar-nav > .active > a:hover {
-  color: #D6D1DA;
+.navbar-default .navbar-nav > .active {
   background-color: transparent;
   border-bottom: 4px #30EDE3 solid;
 }
 
-.navbar-default .navbar-nav > .active > a:active {
+.navbar-default .navbar-nav > .active a:hover {
+  color: #D6D1DA;
   background-color: transparent;
+}
+
+.social-link {
+  margin-right: 25px;
+  margin-top: 10px;
 }
