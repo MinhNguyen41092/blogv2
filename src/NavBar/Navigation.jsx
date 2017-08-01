@@ -38,6 +38,10 @@ class Navigation extends Component {
             <SocialIcon url="https://www.instagram.com/minhnguyen41092/" style={{ height: 25, width: 25 }}
               color="white" />
           </li>
+          <li role="presentation" className="social-link">
+            <SocialIcon url="https://www.github.com/MinhNguyen41092/" style={{ height: 25, width: 25 }}
+              color="white" />
+          </li>
         </Nav>
       </Navbar>
     )
