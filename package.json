@@ -12,6 +12,7 @@
     "react-router-dom": "^4.1.2",
     "react-scripts": "1.0.10",
     "react-social-icons": "^2.7.0",
+    "react-transition-group": "1.x",
     "webpack": "^3.4.1",
     "webpack-dev-server": "^2.6.1"
   },
