@@ -39,6 +39,14 @@ class Home extends Component {
       color: "white",
       fontWeight: "bold",
       fontSize: 50,
+      transition: "font-size 600ms ease"
+    }
+
+    const angle_big = {
+      color: "white",
+      fontWeight: "bold",
+      fontSize: 80,
+      transition: "font-size 600ms ease"
     }
 
     return(
