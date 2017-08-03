@@ -1,0 +1,67 @@
+.about-title {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 50px;
+  font-size: 30px;
+}
+
+.devicon-javascript-plain {
+  height: 70px;
+  width: 70px;
+  display: block;
+  margin: auto;
+}
+
+.devicon-ruby-plain {
+  height: 70px;
+  width: 70px;
+  display: block;
+  margin: auto;
+}
+
+.devicon-html5-plain {
+  height: 70px;
+  width: 70px;
+  display: block;
+  margin: auto;
+}
+
+.major-icons {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.minor-icons {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.devicon-github-plain {
+  height: 70px;
+  width: 70px;
+  display: block;
+  margin: auto;
+}
+
+.devicon-heroku-plain {
+  height: 70px;
+  width: 70px;
+  display: block;
+  margin: auto;
+}
+
+.globe {
+  height: 70px;
+  width: 70px;
+  color: #60be86;
+  display: block;
+  margin: auto;
+}
+
+.devicon-linux-plain {
+  height: 70px;
+  width: 70px;
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+}
