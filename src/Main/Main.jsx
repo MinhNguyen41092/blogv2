@@ -9,11 +9,11 @@ const Main = () => (
   <main>
     <Switch>
       <Route exact path='/' component={Home} />
-      <Home>
-        <Route path='/about' component={About}/>
-        <Route path='/project' component={Project}/>
-      </Home>
       <Route exact path='/blog' component={Blog}/>
+      <Home>
+        <Route exact path='/about' component={About}/>
+        <Route exact path='/project' component={Project}/>
+      </Home>
     </Switch>
   </main>
 )

@@ -4,18 +4,19 @@ import {Navbar, Nav, NavItem} from 'react-bootstrap';
 // Reason: https://github.com/reactjs/react-router-tutorial/tree/master/lessons/09-index-links
 import {LinkContainer, IndexLinkContainer} from 'react-router-bootstrap';
 import { SocialIcon } from 'react-social-icons';
-import './Navigation.css'
+import './Navigation.css';
+import jump from 'jump.js';
 
 class Navigation extends Component {
 
   render() {
     return(
-      <Navbar>
+      <Navbar fixedTop>
         <Nav>
-          <IndexLinkContainer to='/'>
+          <IndexLinkContainer to='/' onClick={() => jump('.home', {duration: 1000})}>
             <NavItem eventKey={2}>Home</NavItem>
           </IndexLinkContainer>
-          <LinkContainer to='/about'>
+          <LinkContainer to='/about' onClick={() => jump('.about-title', {duration: 1000})}>
             <NavItem eventKey={2}>About</NavItem>
           </LinkContainer>
           <LinkContainer to='/project'>

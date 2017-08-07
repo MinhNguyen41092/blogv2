@@ -63,5 +63,20 @@
   width: 70px;
   display: block;
   margin: auto;
-  margin-top: 60px;
+}
+
+.language {
+  height: 70px;
+  width: 70px;
+  color: #60be86;
+  display: block;
+  margin: auto;
+}
+
+.testing {
+  height: 70px;
+  width: 70px;
+  color: #60be86;
+  display: block;
+  margin: auto;
 }
