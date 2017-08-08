@@ -20,10 +20,11 @@
   background-color: #E84949;
   color: white;
   padding-top: 30px;
+  border-radius: 5px;
 }
 
 .fram-tour:hover {
-  filter:brightness(200%);
+  filter:brightness(160%);
   transition: all 0.7s ease-in-out;
 }
 
@@ -34,10 +35,11 @@
   background-color: #2055E8;
   color: white;
   padding-top: 30px;
+  border-radius: 5px;
 }
 
 .my-blog:hover {
-  filter:brightness(200%);
+  filter:brightness(160%);
   transition: all 0.7s ease-in-out;
 }
 
@@ -48,10 +50,11 @@
   background-color: #E226D6;
   color: white;
   padding-top: 40px;
+  border-radius: 5px;
 }
 
 .ecommerce:hover {
-  filter:brightness(200%);
+  filter: brightness(160%);
   transition: all 0.7s ease-in-out;
 }
 

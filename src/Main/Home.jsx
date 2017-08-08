@@ -3,14 +3,11 @@ import FaAngleDoubleDown from 'react-icons/lib/fa/angle-double-down';
 import {Link} from 'react-router-dom'
 import About from './StaticPages/About';
 import Project from './StaticPages/Project';
+import Contact from './StaticPages/Contact';
 import jump from 'jump.js';
 import './Home.css';
 
 class Home extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
 
     const home_page = {
@@ -45,6 +42,7 @@ class Home extends Component {
         </div>
         <About />
         <Project />
+        <Contact />
       </div>
     );
   }

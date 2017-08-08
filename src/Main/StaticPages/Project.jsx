@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Project.css'
+
 class Project extends Component {
   render() {
     const project = {
@@ -12,7 +13,6 @@ class Project extends Component {
     const keys = {
       fontWeight: 700,
       fontFamily: "'Montserrat',Helvetica,sans-serif",
-      marginTop: 5,
       textAlign: "center",
       marginTop: 10
     }

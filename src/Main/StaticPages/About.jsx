@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import './About.css'
 import FaGlobe from 'react-icons/lib/fa/globe';
 import FaLanguage from 'react-icons/lib/fa/language';
