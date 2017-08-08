@@ -19,7 +19,7 @@ class Navigation extends Component {
           <LinkContainer to='/about' onClick={() => jump('.about-title', {duration: 1000})}>
             <NavItem eventKey={2}>About</NavItem>
           </LinkContainer>
-          <LinkContainer to='/project'>
+          <LinkContainer to='/project' onClick={() => jump('.project-title', {duration: 1000})}>
             <NavItem eventKey={2}>Project</NavItem>
           </LinkContainer>
           <LinkContainer to='/blog'>

@@ -2,3 +2,35 @@
   background-image: url('../Pics/lewis-ngugi.jpg');
   background-size: cover;
 }
+
+.home > a {
+  text-decoration: none;
+}
+
+.learn_more {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.angle-double {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: rgba(255,255,255,0.7);
+}
+
+.angle-double:hover {
+  transition: all 0.3s ease-in-out;
+  color: rgba(255,255,255,1);
+}
+
+.to-about {
+  color: rgba(255,255,255,0.7);
+}
+
+.to-about:hover {
+  transition: all 0.3s ease-in-out;
+  color: rgba(255,255,255,1);
+}

@@ -1,0 +1,70 @@
+.project-title {
+  text-align: center;
+  font-weight: 700;
+  padding-top: 50px;
+  font-size: 3.2rem;
+  color: #2A3A3F;
+  padding-bottom: 50px;
+}
+
+.project-name {
+  margin: auto;
+  text-align: center;
+  width: 100px;
+}
+
+.fram-tour {
+  margin: auto;
+  width: 180px;
+  height: 100px;
+  background-color: #E84949;
+  color: white;
+  padding-top: 30px;
+}
+
+.fram-tour:hover {
+  filter:brightness(200%);
+  transition: all 0.7s ease-in-out;
+}
+
+.my-blog {
+  margin: auto;
+  width: 180px;
+  height: 100px;
+  background-color: #2055E8;
+  color: white;
+  padding-top: 30px;
+}
+
+.my-blog:hover {
+  filter:brightness(200%);
+  transition: all 0.7s ease-in-out;
+}
+
+.ecommerce {
+  margin: auto;
+  width: 180px;
+  height: 100px;
+  background-color: #E226D6;
+  color: white;
+  padding-top: 40px;
+}
+
+.ecommerce:hover {
+  filter:brightness(200%);
+  transition: all 0.7s ease-in-out;
+}
+
+.col-xs-4 > a {
+  text-decoration: none;
+}
+
+.see-more {
+  margin-top: 40px;
+  text-align: center;
+  font-style: italic;
+}
+
+.see-more > a {
+  color: #2A3A3F;
+}
