@@ -8,12 +8,11 @@ import './Navigation.css';
 import jump from 'jump.js';
 
 class Navigation extends Component {
-
   render() {
     return(
       <Navbar fixedTop>
         <Nav>
-          <IndexLinkContainer to='/' onClick={() => jump('.home', {duration: 1000})}>
+          <IndexLinkContainer class="nav-home" to='/' onClick={() => jump('.home', {duration: 1000})}>
             <NavItem eventKey={2}>Home</NavItem>
           </IndexLinkContainer>
           <LinkContainer to='/about' onClick={() => jump('.about-title', {duration: 1000})}>
@@ -24,6 +23,9 @@ class Navigation extends Component {
           </LinkContainer>
           <LinkContainer to='/blog'>
             <NavItem eventKey={2}>Blog</NavItem>
+          </LinkContainer>
+          <LinkContainer to='/contact' onClick={() => jump('.contact-me', {duration: 1000})}>
+            <NavItem eventKey={2}>Contact Me</NavItem>
           </LinkContainer>
         </Nav>
         <Nav pullRight>
