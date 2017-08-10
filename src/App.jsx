@@ -12,12 +12,12 @@ class App extends Component {
     var navbar = document.getElementsByClassName('navbar')[0];
     var nav_items = document.body.getElementsByTagName('li');
     document.addEventListener("scroll", function()  {
-      if(document.body.scrollTop >= 520 && document.body.scrollTop <= 1350) {
+      if(document.body.scrollTop > 520 && document.body.scrollTop < 1350) {
         navbar.style.backgroundColor = '#3FBFAA';
         nav_items[0].classList.remove('active');
         nav_items[1].classList.add('active');
         nav_items[2].classList.remove('active');
-      } else if(document.body.scrollTop > 1350 && document.body.scrollTop <= 1600) {
+      } else if(document.body.scrollTop > 1350 && document.body.scrollTop < 1600) {
         navbar.style.backgroundColor = '#3FBFAA';
         nav_items[4].classList.remove('active');
         nav_items[2].classList.add('active');

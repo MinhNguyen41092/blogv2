@@ -14,7 +14,7 @@ class Contact extends Component {
       <div className="container-fluid" style={contact}>
         <p className="contact-me">Yes I'm open for hiring</p>
         <p className="intro">I'm looking forward to working with enthusiastic employees like you<br/>
-          Please take a few minutes and tell me about your vision.</p>
+          Please take a few minutes and tell me about your insight.</p>
         <div className="text-center mail">
 
           <a href="mailto:minhnguyen041092@gmail.com" className="btn btn-lg">Contact me</a>

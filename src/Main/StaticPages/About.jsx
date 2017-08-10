@@ -36,6 +36,8 @@ class About extends Component {
 
     return(
       <div className="container-fluid" style={major}>
+        <h4 className="quote">"Inspiration is for amateurs — the rest of us just show up and get to work."</h4>
+        <h6 className="chuck">- Chuck Close</h6>
         <h3 className="about-title">MAJOR SKILLS</h3>
         <div className="row major-icons">
           <div className="col-xs-4">

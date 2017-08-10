@@ -12,7 +12,7 @@ class Navigation extends Component {
     return(
       <Navbar fixedTop>
         <Nav>
-          <IndexLinkContainer class="nav-home" to='/' onClick={() => jump('.home', {duration: 1000})}>
+          <IndexLinkContainer className="nav-home" to='/' onClick={() => jump('.home', {duration: 1000})}>
             <NavItem eventKey={2}>Home</NavItem>
           </IndexLinkContainer>
           <LinkContainer to='/about' onClick={() => jump('.about-title', {duration: 1000})}>
@@ -25,7 +25,7 @@ class Navigation extends Component {
             <NavItem eventKey={2}>Blog</NavItem>
           </LinkContainer>
           <LinkContainer to='/contact' onClick={() => jump('.contact-me', {duration: 1000})}>
-            <NavItem eventKey={2}>Contact Me</NavItem>
+            <NavItem eventKey={2}>Contact</NavItem>
           </LinkContainer>
         </Nav>
         <Nav pullRight>

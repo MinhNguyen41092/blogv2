@@ -80,3 +80,15 @@
   display: block;
   margin: auto;
 }
+
+.quote {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+.chuck {
+  font-style: italic;
+  text-align: center;
+}
