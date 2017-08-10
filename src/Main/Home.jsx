@@ -25,7 +25,7 @@ class Home extends Component {
       fontWeight: "bold",
       fontSize: 50,
       textAlign: "center",
-      paddingTop: 200,
+      paddingTop: 250,
       flex: 2
     }
 

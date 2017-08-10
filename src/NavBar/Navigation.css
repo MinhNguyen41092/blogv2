@@ -19,7 +19,7 @@
 }
 
 .navbar-default .navbar-nav > .active > a {
-  color: #F5EEEE;
+  color: #F5EEEE !important;
   background-color: transparent !important;
 }
 
